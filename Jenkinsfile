@@ -3,7 +3,7 @@ pipeline {
      stages {
          stage ('scm') {
           steps {
-              git url: 'https://github.com/chandushine/terraform_learning.git'
+              git url: 'https://github.com/chandushine/terraform_learning.git',
               branch: 'master'
           }   
          }
